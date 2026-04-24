@@ -1,0 +1,11 @@
+[project]
+name = "hackathon-codestorm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fpdf2>=2.8.7",
+    "groq>=1.2.0",
+    "pymupdf>=1.27.2.3",
+]

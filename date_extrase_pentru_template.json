@@ -1,0 +1,270 @@
+{
+    "Date_despre_program": {
+        "Institutia_de_invatamant_superior": "Universitatea Transilvania din Brașov",
+        "Facultatea": "Matematică și Informatică",
+        "Domeniul_de_studii": "Informatică",
+        "Ciclul_de_studii": "Licență",
+        "Programul_de_studiu_Calificarea": "Informatică"
+    },
+    "Legenda_si_Observatii": {
+        "Legenda": {
+            "C1": "criteriul obligativității",
+            "DI": "disciplină impusă (obligatorie)",
+            "DO": "disciplină opțională (la alegere)",
+            "C2": "criteriul conținutului",
+            "DF": "disciplină fundamentală",
+            "DS": "disciplină de specialitate",
+            "DC": "disciplină complementară",
+            "DFc": "disciplină facultativă",
+            "AI": "activități de autoînvățare",
+            "SI": "studiu individual",
+            "AT": "activități tutoriale",
+            "TC": "teme de control",
+            "AA": "activități aplicative asistate",
+            "FV": "formă de verificare",
+            "Cr": "nr. de credite"
+        },
+        "Observatii": [
+            "Al = nr. de ore de curs din planul de învățământ pentru IF",
+            "SI* = diferența dintre totalul ore dedicate disciplinei (25 ore x nr. de credite) și nr. de ore didactice pe semestru",
+            "AT**+TC = nr. ore de seminar din planul de învățământ pentru IF",
+            "AA** = nr. ore de laborator/proiect din planul de învățământ pentru IF",
+            "* Ore alocate SI se preiau ca atare din planul de învățământ pentru IF și nu intră în calculul totalului numărului de ore didactice obligatorii/opționale pe semestru din planul de învățământ pentru ID",
+            "** La forma ID, AT/AA pot fi constituite din ATF (activități tutoriale/asistate făcute în fața) și ATD (activități tutoriale/asistate la distanță, desfășurate online sincron pe platformă), dar ATD nu pot reprezenta mai mult de 50% din totalul orelor alocate pentru AT/AA"
+        ]
+    },
+    "Competente_profesionale": [
+        {
+            "Competenta": "CP1. Creeze softuri, dezvoltă prototipul pentru software",
+            "Rezultate_invatare": [
+                "R.I. 1.1. Absolventul transpune o serie de cerințe într-un concept de software clar și organizat",
+                "R.I. 1.2. Absolventul creează o primă versiune incompletă sau preliminară a unei aplicații software pentru a simula unele aspecte specifice ale produsului final"
+            ]
+        },
+        {
+            "Competenta": "CP2. Utilizează șabloane de proiectare de software, creează diagrame de proces",
+            "Rezultate_invatare": [
+                "R.I. 2.1. Absolventul utilizează soluții reutilizabile, întocmește cele mai bune practici în vederea îndeplinirii activităților comune de dezvoltare TIC în dezvoltarea și proiectarea de software",
+                "R.I. 2.2. Absolventul alcătuiește o diagramă care ilustrează progresul sistematic înregistrat pe parcursul unei proceduri sau al unui sistem utilizând linii de legături și un set de simboluri"
+            ]
+        },
+        {
+            "Competenta": "CP3. Analizează specificațiile software, definește arhitectura software, proiectează sistemul informatic",
+            "Rezultate_invatare": [
+                "R.I. 3.1. Absolventul evaluează specificațiile unui produs sau sistem software care urmează să fie dezvoltat prin identificarea cerințelor funcționale și nefuncționale, a constrângerilor și a posibilelor seturi de cazuri de utilizare care ilustrează interacțiunile dintre software și utilizatorii săi",
+                "R.I. 3.2. Absolventul creează și documentează structura produselor software, inclusiv componentele, cuplarea și interfețele. Asigură fezabilitatea, funcționalitatea și compatibilitatea cu platformele existente",
+                "R.I. 3.3. Absolventul definește arhitectura, componentele, modulele, interfețele și datele pentru sistemele informatice integrate (hardware, software și rețea), pe baza cerințelor și a specificațiilor sistemului"
+            ]
+        }
+    ],
+    "Competente_transversale": [
+        {
+            "Competenta": "CT1. Aplică competențe de bază în materie de programare, operează echipamente hardware digitale",
+            "Rezultate_invatare": [
+                "R.I. 1.1. Absolventul enumeră instrucțiuni simple pentru un sistem informatic în vederea rezolvării problemelor sau a îndeplinirii sarcinilor la un nivel de bază și cu orientări adecvate, dacă este necesar",
+                "R.I. 1.2. Absolventul utilizează echipamente precum monitor, mouse, tastatura, dispozitive de stocare, imprimante și scanere, pentru a efectua operații precum conectarea, pornirea, oprirea, repornirea, salvarea fișierelor și alte operațiuni"
+            ]
+        },
+        {
+            "Competenta": "CT2. Utilizează software de comunicare și colaborează, efectuează căutări pe Internet",
+            "Rezultate_invatare": [
+                "R.I. 2.1. Absolventul utilizează instrumente și tehnologii digitale simple pentru a comunica, a interacționa și a colabora cu ceilalți",
+                "R.I. 2.2. Absolventul caută date, informații și conținut, prin căutări pe Internet"
+            ]
+        },
+        {
+            "Competenta": "CT3. Identifică probleme, soluționează probleme",
+            "Rezultate_invatare": [
+                "R.I. 3.1. Absolventul identifică și detectează diverse probleme și aspecte și ia decizii cu privire la cea mai bună cale de urmat",
+                "R.I. 3.2. Absolventul raportează problemele în consecvență atunci când este necesar",
+                "R.I. 3.3. Absolventul găsește soluții la probleme practice, operaționale sau conceptuale într-o gamă largă de contexte"
+            ]
+        },
+        {
+            "Competenta": "CT4. Demonstrează angajament, gândște rapid, gândște analitic, și menține concentrarea pentru perioade lungi de timp",
+            "Rezultate_invatare": [
+                "R.I. 4.1. Absolventul demonstrează disponibilitatea de a-și asuma sarcini, chiar dacă acestea sunt dificile sau incomode",
+                "R.I. 4.2. Absolventul este în măsură să înțeleagă și să prelucreze cele mai importante aspecte ale datelor și conexiunile acestora în mod rapid și precis",
+                "R.I. 4.3. Absolventul găsește soluții folosind logica și raționamentul pentru a identifica punctele tari și punctele slabe ale soluțiilor alternative, concluzionând sau abordărilor problemelor",
+                "R.I. 4.4. Absolventul rămâne concentrat pe o perioadă lungă de timp pentru a judeca corect și a lua decizii adecvate"
+            ]
+        },
+        {
+            "Competenta": "CT5. Lucrează în echipă, organizează informații, obiecte și resurse, se dovedește a doriință de învățare, se adaptează la schimbare, face față stresului",
+            "Rezultate_invatare": [
+                "R.I. 5.1. Absolventul lucrează cu încredere în cadrul unui grup, fiecare făcând-și partea lui în serviciul întregului",
+                "R.I. 5.2. Absolventul înțelege sarcinile care îi revin și procesele aferente. Organizează informaţii, obiecte şi resurse prin metode sistematice şi în conformitate cu anumite standarde și asigură gestionarea sarcinii",
+                "R.I. 5.3. Absolventul dă dovadă de o atitudine pozitivă faţă de cerinţele noi şi provocatoare care pot fi satisfăcute doar prin învăţare pe tot parcursul vieţii",
+                "R.I. 5.4. Absolventul îşi schimbă atitudinea sau comportamentul pentru a se adapta modificărilor de la locul de muncă",
+                "R.I. 5.5. Absolventul gestionează provocările, perturbările şi schimbările şi se redresează în urma regreselor şi a adversităților"
+            ]
+        }
+    ],
+    "Discipline": [
+        {
+            "Denumirea_disciplinei": "Analiză matematică",
+            "C1_Obligativitate": "DI",
+            "C2_Continut": "DC",
+            "Cod_disciplina": "AP001-ID",
+            "Anul_de_studiu": "I",
+            "Semestrul": "I",
+            "Ore_AI": "42",
+            "Ore_AT": "8",
+            "Ore_TC": "20",
+            "Ore_AA": "",
+            "Ore_SI": "",
+            "Forma_de_verificare_FV": "E",
+            "Numarul_de_credite_Cr": "5"
+        },
+        {
+            "Denumirea_disciplinei": "Fundamentele algebrice ale informaticilor",
+            "C1_Obligativitate": "DI",
+            "C2_Continut": "DF",
+            "Cod_disciplina": "AG12-ID",
+            "Anul_de_studiu": "I",
+            "Semestrul": "I",
+            "Ore_AI": "28",
+            "Ore_AT": "8",
+            "Ore_TC": "20",
+            "Ore_AA": "",
+            "Ore_SI": "",
+            "Forma_de_verificare_FV": "C",
+            "Numarul_de_credite_Cr": "5"
+        },
+        {
+            "Denumirea_disciplinei": "Algoritmi fundamentali",
+            "C1_Obligativitate": "DI",
+            "C2_Continut": "DF",
+            "Cod_disciplina": "IT13-ID",
+            "Anul_de_studiu": "I",
+            "Semestrul": "I",
+            "Ore_AI": "28",
+            "Ore_AT": "4",
+            "Ore_TC": "10",
+            "Ore_AA": "",
+            "Ore_SI": "28",
+            "Forma_de_verificare_FV": "E",
+            "Numarul_de_credite_Cr": "5"
+        },
+        {
+            "Denumirea_disciplinei": "Fundamentele programării",
+            "C1_Obligativitate": "DI",
+            "C2_Continut": "DF",
+            "Cod_disciplina": "IT14-ID",
+            "Anul_de_studiu": "I",
+            "Semestrul": "I",
+            "Ore_AI": "28",
+            "Ore_AT": "4",
+            "Ore_TC": "10",
+            "Ore_AA": "",
+            "Ore_SI": "28",
+            "Forma_de_verificare_FV": "E",
+            "Numarul_de_credite_Cr": "5"
+        },
+        {
+            "Denumirea_disciplinei": "Logică matematică și computațională",
+            "C1_Obligativitate": "DI",
+            "C2_Continut": "DF",
+            "Cod_disciplina": "IT15-ID",
+            "Anul_de_studiu": "I",
+            "Semestrul": "I",
+            "Ore_AI": "28",
+            "Ore_AT": "4",
+            "Ore_TC": "10",
+            "Ore_AA": "",
+            "Ore_SI": "28",
+            "Forma_de_verificare_FV": "E",
+            "Numarul_de_credite_Cr": "5"
+        },
+        {
+            "Denumirea_disciplinei": "Redactare și comunicare științifică și profesională",
+            "C1_Obligativitate": "DI",
+            "C2_Continut": "DC",
+            "Cod_disciplina": "RE16-ID",
+            "Anul_de_studiu": "I",
+            "Semestrul": "I",
+            "Ore_AI": "14",
+            "Ore_AT": "4",
+            "Ore_TC": "10",
+            "Ore_AA": "",
+            "Ore_SI": "",
+            "Forma_de_verificare_FV": "C",
+            "Numarul_de_credite_Cr": "2"
+        },
+        {
+            "Denumirea_disciplinei": "Algebră liniară, geometrie analitică și diferențială",
+            "C1_Obligativitate": "DI",
+            "C2_Continut": "DC",
+            "Cod_disciplina": "AG21-ID",
+            "Anul_de_studiu": "I",
+            "Semestrul": "II",
+            "Ore_AI": "28",
+            "Ore_AT": "8",
+            "Ore_TC": "20",
+            "Ore_AA": "",
+            "Ore_SI": "",
+            "Forma_de_verificare_FV": "C",
+            "Numarul_de_credite_Cr": "5"
+        },
+        {
+            "Denumirea_disciplinei": "Arhitectura sistemelor de calcul",
+            "C1_Obligativitate": "DI",
+            "C2_Continut": "DF",
+            "Cod_disciplina": "IT22-ID",
+            "Anul_de_studiu": "I",
+            "Semestrul": "II",
+            "Ore_AI": "28",
+            "Ore_AT": "4",
+            "Ore_TC": "10",
+            "Ore_AA": "14",
+            "Ore_SI": "",
+            "Forma_de_verificare_FV": "E",
+            "Numarul_de_credite_Cr": "5"
+        },
+        {
+            "Denumirea_disciplinei": "Programare orientată pe obiecte",
+            "C1_Obligativitate": "DI",
+            "C2_Continut": "DS",
+            "Cod_disciplina": "IT23-ID",
+            "Anul_de_studiu": "I",
+            "Semestrul": "II",
+            "Ore_AI": "28",
+            "Ore_AT": "",
+            "Ore_TC": "",
+            "Ore_AA": "28",
+            "Ore_SI": "",
+            "Forma_de_verificare_FV": "E",
+            "Numarul_de_credite_Cr": "6"
+        },
+        {
+            "Denumirea_disciplinei": "Structuri de date",
+            "C1_Obligativitate": "DI",
+            "C2_Continut": "DF",
+            "Cod_disciplina": "IT24-ID",
+            "Anul_de_studiu": "I",
+            "Semestrul": "II",
+            "Ore_AI": "28",
+            "Ore_AT": "",
+            "Ore_TC": "",
+            "Ore_AA": "28",
+            "Ore_SI": "",
+            "Forma_de_verificare_FV": "E",
+            "Numarul_de_credite_Cr": "6"
+        },
+        {
+            "Denumirea_disciplinei": "Sisteme de operare",
+            "C1_Obligativitate": "DI",
+            "C2_Continut": "DF",
+            "Cod_disciplina": "IA25-ID",
+            "Anul_de_studiu": "I",
+            "Semestrul": "II",
+            "Ore_AI": "28",
+            "Ore_AT": "",
+            "Ore_TC": "",
+            "Ore_AA": "28",
+            "Ore_SI": "",
+            "Forma_de_verificare_FV": "E",
+            "Numarul_de_credite_Cr": "6"
+        }
+    ]
+}
