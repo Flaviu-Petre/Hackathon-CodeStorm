@@ -1,0 +1,24 @@
+{
+    "Credits_Hours_Evaluation": {
+        "Credits": {
+            "Status": "Conform",
+            "Explanation": "Syllabus-ul menționează 5 credite, ceea ce este corect conform standardului de 30 de ore/credit."
+        },
+        "Hours": {
+            "Status": "Conform",
+            "Explanation": "Calculul totalului de 150 ore (56 ore din plan + 94 ore activitate student) este corect."
+        },
+        "Evaluation_Type": {
+            "Status": "Conform",
+            "Explanation": "Tipul de evaluare 'E' (examen) este specificat corect în fișa disciplinei."
+        }
+    },
+    "Competencies": {
+        "Status": "Neconform",
+        "Explanation": "Syllabus-ul menționează doar competențele CP1 și CT3, în timp ce datele oficiale includ 3 competențe profesionale (CP1-CP3) și 5 competențe transversale (CT1-CT5). Sunt lipsă competențele CP2, CP3, CT1, CT2, CT4, CT5."
+    },
+    "Bibliography": {
+        "Status": "Neconform",
+        "Explanation": "Bibliografia include surse precum 'Thinking in C++' și o lucrare din 2007, dar nu sunt prezentate sursele oficiale recomandate. Nu există o listă oficială în datele oficiale, dar lipsa mențiunii unor surse moderne ar putea fi o problemă."
+    }
+}
