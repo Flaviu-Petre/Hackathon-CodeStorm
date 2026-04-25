@@ -1,0 +1,233 @@
+{
+    "Algoritmi fundamentali": [
+        {
+            "Titlu": "L'uso di algoritmi predittivi per accertare la pericolosità sociale: una sfida tra evidence-based practices e tutela dei diritti fondamentali",
+            "Autori": [
+                "AM Maugeri"
+            ],
+            "An_aparitie": 2021,
+            "Link": "https://www.torrossa.com/gs/resourceProxy?an=5189800&publisher=F46792"
+        },
+        {
+            "Titlu": "Diritti fondamentali e algoritmi nella proposta di regolamento sull'intelligenza artificiale.",
+            "Autori": [
+                "F Donati"
+            ],
+            "An_aparitie": 2021,
+            "Link": "https://www.academia.edu/download/86308244/Diritti_fondamentali_e_algoritmi_nella_proposta_di_regolamento_sull_IA.pdf"
+        },
+        {
+            "Titlu": "Governance algoritmica: sorveglianza, censura e diritti fondamentali",
+            "Autori": [
+                "F Musiani"
+            ],
+            "An_aparitie": 2021,
+            "Link": "https://shs.hal.science/halshs-03381546/"
+        },
+        {
+            "Titlu": "Algoritmi adattivi per l'elaborazione dei segnali",
+            "Autori": [
+                "A Uncini"
+            ],
+            "An_aparitie": 2020,
+            "Link": "https://books.google.com/books?hl=en&lr=&id=DIvnDwAAQBAJ&oi=fnd&pg=PA1&dq=Algoritmi+fundamentali&ots=ramH4XxS20&sig=8bg1Mv5OSlGFGQXM51tHDJY8ceU"
+        }
+    ],
+    "Fundamentele programării": [
+        {
+            "Titlu": "Pre-achiziții din domeniul programării ale viitorilor informaticieni",
+            "Autori": [
+                "M Pavel",
+                "D Pavel"
+            ],
+            "An_aparitie": 2022,
+            "Link": "https://ibn.idsi.md/sites/default/files/imag_file/55-62_16.pdf"
+        },
+        {
+            "Titlu": "Fundamentele psihologiei",
+            "Autori": [
+                "M Golu"
+            ],
+            "An_aparitie": 2007,
+            "Link": "https://www.academia.edu/download/36320304/carte-Mihai-Golu-Fundamentele-psihologiei-ed-V.pdf"
+        },
+        {
+            "Titlu": "Arta Programarii in Java-Elemente Suport Fundamentale",
+            "Autori": [
+                "D Danciu"
+            ],
+            "An_aparitie": 2003,
+            "Link": "https://books.google.com/books?hl=en&lr=&id=HJ-pW_FPn4cC&oi=fnd&pg=PA91&dq=Fundamentele+program%C4%83rii&ots=v9GgdEUF4Q&sig=eLT5jBZC6PzSGd1NxksMGwOwwMI"
+        }
+    ],
+    "Logică matematică și computațională": [
+        {
+            "Titlu": "Modelarea matematică şi simularea computaţională a comportamentului dinamic pe orbită a nanosateliţilor",
+            "Autori": [
+                "V MELNIC"
+            ],
+            "An_aparitie": 2024,
+            "Link": "https://repository.utm.md/handle/5014/27814"
+        },
+        {
+            "Titlu": "Modelarea matematica computationala in administratia publica, drept si management social",
+            "Autori": [
+                "IL CHIRCĂ"
+            ],
+            "An_aparitie": 2017,
+            "Link": "https://scrd.eu/index.php/scic/article/view/264"
+        },
+        {
+            "Titlu": "Consideratii referitoare la modelarea institutiilor administrative si instantelor in perspectiva informatizarii fluxurilor de prelucrare",
+            "Autori": [
+                "IL CHIRCĂ"
+            ],
+            "An_aparitie": 2015,
+            "Link": "https://www.scrd.eu/index.php/scic/article/view/221"
+        }
+    ],
+    "Redactare și comunicare științifică și profesională": [
+        {
+            "Titlu": "RESEARCHGATE–PLATFORMĂ DE COLABORARE ŞI COMUNICARE ŞTIINŢIFICĂ",
+            "Autori": [
+                "M Staver"
+            ],
+            "An_aparitie": 2022,
+            "Link": "https://www.ceeol.com/search/chapter-detail?id=1109401"
+        },
+        {
+            "Titlu": "Comunicarea ştiinţifică în contextul Accesului Deschis la informaţie",
+            "Autori": [
+                "N Ţurcan"
+            ],
+            "An_aparitie": 2012,
+            "Link": "https://ibn.idsi.md/sites/default/files/imag_file/Comunicarea%20stiintifica%20in%20contextul%20Accesului%20Deschis%20la%20informatie_Monografia.pdf"
+        }
+    ],
+    "Algebră liniară, geometrie analitică și diferențială": [
+        {
+            "Titlu": "GEOMETRIA ANALITICĂ A SPAȚIILOR OMOGENE",
+            "Autori": [
+                "IDEMȘI INFORMATICĂ",
+                "P ALEXANDRU"
+            ],
+            "An_aparitie": 2017,
+            "Link": "http://www.cnaa.md/files/theses/2017/52126/alexandru_popa_abstract.pdf"
+        },
+        {
+            "Titlu": "Algebră liniară, geometrie analitică şi diferenţială",
+            "Autori": [
+                "T Boacă"
+            ],
+            "An_aparitie": 2010,
+            "Link": "https://www.academia.edu/download/36505534/CURS_TEORIE_Algebra_liniara_geometrie_analitica_si_diferentiala.pdf"
+        }
+    ],
+    "Arhitectura sistemelor de calcul": [
+        {
+            "Titlu": "Sistem de calcul pentru procesarea concurentă a fluxurilor de date",
+            "Autori": [
+                "I Lungu",
+                "N Roşca",
+                "V Ababii"
+            ],
+            "An_aparitie": 2025,
+            "Link": "https://ibn.idsi.md/vizualizare_articol/248265"
+        },
+        {
+            "Titlu": "Arhitectura sistemelor de calcul. Partea 1: Îndrumar metodic pentru lucrările de laborator",
+            "Autori": [
+                "V CREȚU"
+            ],
+            "An_aparitie": 2023,
+            "Link": "https://repository.utm.md/handle/5014/25092"
+        },
+        {
+            "Titlu": "Modelarea şi implementarea arhitecturilor de calcul distribuit în baza dispozitivelor reconfigurabile",
+            "Autori": [
+                "V ABABII",
+                "D CALUGARI",
+                "E TUMANOV"
+            ],
+            "An_aparitie": 2017,
+            "Link": "https://repository.utm.md/handle/5014/1540"
+        },
+        {
+            "Titlu": "Arhitectura calculatoarelor",
+            "Autori": [
+                "V Rădulescu",
+                "H Luchian",
+                "A Buburuzan"
+            ],
+            "An_aparitie": 2016,
+            "Link": "https://www.academia.edu/download/35603664/arh-pu.pdf"
+        }
+    ],
+    "Programare orientată pe obiecte": [
+        {
+            "Titlu": "Metodologia implementării Sistemelor de Management al Învățării în procesul de studiu al Programării Orientate pe Obiecte, cond. șt",
+            "Autori": [
+                "G Ala",
+                "A Braicov"
+            ],
+            "An_aparitie": 2018,
+            "Link": "http://www.cnaa.md/thesis/53164/"
+        }
+    ],
+    "Structuri de date": [
+        {
+            "Titlu": "STRUCTURI DE DATE",
+            "Autori": [
+                "IC PLAJER",
+                "P Iulian"
+            ],
+            "An_aparitie": 2025,
+            "Link": "https://ebooks.unitbv.ro/wp-content/uploads/2025/11/978-606-19-1820-1-work.pdf"
+        },
+        {
+            "Titlu": "Structuri de date şi algoritmi: Suport de curs",
+            "Autori": [
+                "N BURLACU"
+            ],
+            "An_aparitie": 2025,
+            "Link": "https://repository.utm.md/handle/5014/33987"
+        },
+        {
+            "Titlu": "Structuri de date",
+            "Autori": [
+                "A Carabineanu"
+            ],
+            "An_aparitie": 2006,
+            "Link": "http://www.lbi.ro/~oana/11%20G/CARA_STRUCTURI.pdf"
+        }
+    ],
+    "Sisteme de operare": [
+        {
+            "Titlu": "Sisteme de operare şi limbaje de asamblare. Teorie şi aplicaţii",
+            "Autori": [
+                "L ROTARU",
+                "C PLOTNIC"
+            ],
+            "An_aparitie": 2013,
+            "Link": "https://repository.utm.md/handle/5014/15747"
+        },
+        {
+            "Titlu": "INFORMAŢIILE–SISTEM DE OPERARE IMPORTANT LA NIVELURILE TACTIC ŞI OPERATIV",
+            "Autori": [
+                "S Popescu"
+            ],
+            "An_aparitie": 2013,
+            "Link": "https://www.ceeol.com/search/article-detail?id=112248"
+        },
+        {
+            "Titlu": "Sisteme de operare: îndrumar de laborator",
+            "Autori": [
+                "MM Seiceanu",
+                "MV Oancea",
+                "M Breazu"
+            ],
+            "An_aparitie": 2007,
+            "Link": "https://webspace.ulbsibiu.ro/daniel.morariu/html/StudentDoc/SO/SO_Indrumar.pdf"
+        }
+    ]
+}
