@@ -52,13 +52,13 @@ LATEX_TEMPLATE = r"""\documentclass[11pt,a4paper]{article}
 \noindent
 \begin{xltabular}{\textwidth}{|l|l|l|X|l|X|}
 \hline
-3.1 Număr de ore pe săptămână & & Din care: 3.2 curs & \VAR{Disciplina_curenta.Ore_AI} & 3.3 seminar/laborator & \VAR{Disciplina_curenta.Ore_AT} \\ \hline
-3.4 Total ore din planul de învăţământ & \VAR{Disciplina_curenta.Total_ore_didactice} & Din care: 3.5 curs & \VAR{Disciplina_curenta.Ore_AI} & 3.6 seminar/laborator & \VAR{Disciplina_curenta.Ore_AT} \\ \hline
-\multicolumn{6}{|l|}{Distribuţia fondului de timp: \textbf{\VAR{Disciplina_curenta.Numarul_de_credite_Cr} credite}} \\ \hline
-\multicolumn{5}{|l|}{Studiul după manual, suport de curs, bibliografie şi notiţe} & \VAR{Disciplina_curenta.Ore_SI} \\ \hline
+3.1 Număr de ore pe săptămână & \VAR{Disciplina_curenta.Numar_ore_saptamana} & Din care: 3.2 curs & \VAR{Disciplina_curenta.Numar_ore_curs_pe_saptamana} & 3.3 seminar/laborator & \VAR{Disciplina_curenta.Numar_ore_seminar_lab_proiect_pe_saptamana} \\ \hline
+3.4 Total ore din planul de învăţământ & \VAR{Disciplina_curenta.Total_ore_din_planul_de_invatamant} & Din care: 3.5 curs & \VAR{Disciplina_curenta.Ore_AI} & 3.6 seminar/laborator & \VAR{Disciplina_curenta.Numar_ore_seminar_laborator_proiect} \\ \hline
+\multicolumn{5}{|l|}{Distribuţia fondului de timp: \VAR{Disciplina_curenta.Total_ore_de_activitate_a_studentului}} & ore \\ \hline
+\multicolumn{5}{|l|}{Studiul după manual, suport de curs, bibliografie şi notiţe} & \\ \hline
 \multicolumn{5}{|l|}{Documentare suplimentară în bibliotecă, pe platforme, pe teren} &  \\ \hline
-\multicolumn{5}{|l|}{Pregătire seminarii/laboratoare, teme, referate, portofolii şi eseuri} & \VAR{Disciplina_curenta.Ore_TC} \\ \hline
-\multicolumn{5}{|l|}{Tutoriat} & \VAR{Disciplina_curenta.Ore_AT} \\ \hline
+\multicolumn{5}{|l|}{Pregătire seminarii/laboratoare, teme, referate, portofolii şi eseuri} & \\ \hline
+\multicolumn{5}{|l|}{Tutoriat} & \\ \hline
 \multicolumn{5}{|l|}{Examinări} & \\ \hline
 \multicolumn{5}{|l|}{Alte activități:} & \\ \hline
 \multicolumn{3}{|l|}{3.7 Total ore studiu individual} & \multicolumn{3}{l|}{\VAR{Disciplina_curenta.Total_ore_studiu_individual}} \\ \hline
@@ -252,24 +252,25 @@ def main():
     discipline_list = data['Discipline']
 
     for disc in discipline_list:
-        # Asigurăm conversia tipurilor de date pentru siguranță, 
-        # dar nu mai facem calcule matematice aici.
-        chei_ore = [
-            'Ore_AI', 'Ore_AT', 'Ore_TC', 'Ore_AA', 'Ore_SI', 
-            'Total_ore_didactice', 'Total_ore_semestru', 'Total_ore_studiu_individual'
+        chei_calculates = [
+            'Numar_ore_saptamana', 
+            'Numar_ore_curs_pe_saptamana', 
+            'Numar_ore_seminar_lab_proiect_pe_saptamana',
+            'Total_ore_din_planul_de_invatamant',
+            'Numar_ore_seminar_laborator_proiect',
+            'Total_ore_studiu_individual',
+            'Total_ore_semestru',
+            'Total_ore_de_activitate_a_studentului' # <-- Noua variabilă adăugată
         ]
-        for key in chei_ore:
-            val = disc.get(key, 0)
-            try:
-                disc[key] = int(float(val))
-            except (ValueError, TypeError):
+        
+        for key in chei_calculates:
+            if key not in disc:
                 disc[key] = 0
                 
-        val_credite = disc.get('Numarul_de_credite_Cr', 0)
-        try:
-            disc['Numarul_de_credite_Cr'] = int(float(val_credite))
-        except (ValueError, TypeError):
-            disc['Numarul_de_credite_Cr'] = 0
+        chei_ore_brute = ['Ore_AI', 'Ore_AT', 'Ore_TC', 'Ore_AA', 'Ore_SI']
+        for key in chei_ore_brute:
+            val = disc.get(key, 0)
+            disc[key] = int(float(val)) if str(val).strip() else 0
 
         generate_tex(disc, program_info, prof_comp, trans_comp)
 
