@@ -56,14 +56,12 @@ def valideaza_fisier(filepath, json_data):
         val = disc_data.get(key, "0")
         ore_validate[key] = int(val) if str(val).strip() else 0
 
-    # credite = int(disc_data.get('Numarul_de_credite_Cr', 0))
-    val_credite = disc_data.get('Numarul_de_credite_Cr', "0")
-    credite = int(val_credite) if str(val_credite).strip() else 0
-    total_didactice = ore_validate['Ore_AI'] + ore_validate['Ore_AT'] + ore_validate['Ore_AA']
-    total_semestru = credite * 25
-    total_individual = total_semestru - total_didactice
+    credite = disc_data.get('Numarul_de_credite_Cr', 0)
+    total_didactice = disc_data.get('Total_ore_didactice', 0)
+    total_semestru = disc_data.get('Total_ore_semestru', 0)
+    total_individual = disc_data.get('Total_ore_studiu_individual', 0)
 
-    # Căutăm numerele sub formă de string în document
+    # Căutăm numerele sub formă de string în documentul .tex
     numere_de_verificat = {
         "Număr de credite": credite,
         "Total ore didactice": total_didactice,
@@ -73,7 +71,7 @@ def valideaza_fisier(filepath, json_data):
 
     for nume_camp, valoare in numere_de_verificat.items():
         if str(valoare) not in content:
-            conflicte.append(f"Calcule Ore: Nu am găsit valoarea calculată '{valoare}' pentru {nume_camp}")
+            conflicte.append(f"Validare Date: Nu am găsit valoarea '{valoare}' (calculată de math.py) pentru {nume_camp}")
 
     # 4. Verificare Competențe (eșantion de text)
     # Verificăm dacă măcar primele 10 caractere dintr-o competență generată au ajuns în document

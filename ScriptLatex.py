@@ -252,24 +252,24 @@ def main():
     discipline_list = data['Discipline']
 
     for disc in discipline_list:
-        # Prevenim valorile lipsă convertindu-le direct la 0
-        chei_ore = ['Ore_AI', 'Ore_AT', 'Ore_TC', 'Ore_AA', 'Ore_SI']
+        # Asigurăm conversia tipurilor de date pentru siguranță, 
+        # dar nu mai facem calcule matematice aici.
+        chei_ore = [
+            'Ore_AI', 'Ore_AT', 'Ore_TC', 'Ore_AA', 'Ore_SI', 
+            'Total_ore_didactice', 'Total_ore_semestru', 'Total_ore_studiu_individual'
+        ]
         for key in chei_ore:
-            val = disc.get(key, "0")
-            disc[key] = int(val) if str(val).strip() else 0
+            val = disc.get(key, 0)
+            try:
+                disc[key] = int(float(val))
+            except (ValueError, TypeError):
+                disc[key] = 0
                 
-        # disc['Numarul_de_credite_Cr'] = int(disc['Numarul_de_credite_Cr'])
-        val_credite = disc.get('Numarul_de_credite_Cr', "0")
-        disc['Numarul_de_credite_Cr'] = int(val_credite) if str(val_credite).strip() else 0
-        
-        # Matematica pentru distribuția timpului (25 ore/credit)
-        ore_didactice = disc['Ore_AI'] + disc['Ore_AT'] + disc['Ore_AA']
-        ore_totale = disc['Numarul_de_credite_Cr'] * 25
-        ore_individuale = ore_totale - ore_didactice
-        
-        disc['Total_ore_didactice'] = ore_didactice
-        disc['Total_ore_semestru'] = ore_totale
-        disc['Total_ore_studiu_individual'] = ore_individuale
+        val_credite = disc.get('Numarul_de_credite_Cr', 0)
+        try:
+            disc['Numarul_de_credite_Cr'] = int(float(val_credite))
+        except (ValueError, TypeError):
+            disc['Numarul_de_credite_Cr'] = 0
 
         generate_tex(disc, program_info, prof_comp, trans_comp)
 

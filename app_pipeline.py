@@ -28,8 +28,8 @@ def main():
     
     # Definim ordinea exactă a scripturilor pe care vrei să le rulezi.
     pasi_pipeline = [
-        # "Extractor_Text.py",
-        # "math.py",
+        "Extractor_Text.py",
+        "math.py",
         "ScriptLatex.py",
         "validator.py"
     ]
