@@ -57,14 +57,16 @@ def valideaza_fisier(filepath, json_data):
         ore_validate[key] = int(val) if str(val).strip() else 0
 
     credite = disc_data.get('Numarul_de_credite_Cr', 0)
-    total_didactice = disc_data.get('Total_ore_didactice', 0)
+    
+    # SCHIMBARE AICI: Luăm variabila care chiar e printată la punctul 3.4 în LaTeX
+    total_plan_invatamant = disc_data.get('Total_ore_din_planul_de_invatamant', 0)
     total_semestru = disc_data.get('Total_ore_semestru', 0)
     total_individual = disc_data.get('Total_ore_studiu_individual', 0)
 
     # Căutăm numerele sub formă de string în documentul .tex
     numere_de_verificat = {
         "Număr de credite": credite,
-        "Total ore didactice": total_didactice,
+        "Total ore din planul de invatamant": total_plan_invatamant,
         "Total ore pe semestru": total_semestru,
         "Total ore studiu individual": total_individual
     }
